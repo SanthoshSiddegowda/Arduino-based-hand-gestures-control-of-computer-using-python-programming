@@ -25,9 +25,6 @@ distance1 = r / 100.00;
 /////////////////////////////////////////upper part for left sensor and lower part for right sensor
 digitalWrite(trigPin2, LOW);
 delayMicroseconds(2);
-Dept of ECE, JVIT
-Page 48Arduino based hand gesture control of computer using python programming
-2017-2018
 digitalWrite(trigPin2, HIGH);
 delayMicroseconds(10);
 digitalWrite(trigPin2, LOW);
@@ -57,8 +54,6 @@ if(distance2<=35 && distance2>=15)
 temp=distance2;
 while(distance2<=50 || distance2==0) .
 {
-Dept of ECE, JVIT
-Page 49Arduino based hand gesture control of computer using python programming
 find_distance();
 2017-2018
 .
@@ -93,9 +88,6 @@ break;
 if(l==0)
 {
 Serial.println("previous");
-Dept of ECE, JVIT
-Page 50Arduino based hand gesture control of computer using python programming
-2017-2018
 find_distance();
 }
 l=0;
